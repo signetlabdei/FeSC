@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# FeSC
 
-You can use the [editor on GitHub](https://github.com/signetlabdei/FeSC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo will contain the Matlab code that implements an architecture for Feature Selection with Consensus (FeSC).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The architecture clusters features using two (or more) clustering algorithms, and combine the output clusters computing the consensus among the algorithms, selecting those features for which the algorithms were in agreement.
+The selected features are used to select part of the input data, which are than classified through SVM. 
+Performance evaluation is done with 5-folds cross-validation and estimated in terms of classification accuracy.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/signetlabdei/FeSC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## References
+- G. Cisotto, M. Capuzzo, A. V. Guglielmi, and A. Zanella, “Feature selection for gesture recognition in Internet-
+of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland.
