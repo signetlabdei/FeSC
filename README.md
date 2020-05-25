@@ -8,4 +8,4 @@ Performance evaluation is done with 5-folds cross-validation and estimated in te
 
 ## References
 - G. Cisotto, M. Capuzzo, A. V. Guglielmi, and A. Zanella, “Feature selection for gesture recognition in Internet-
-of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland.
+of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland. Pre-published in ArXiV: http://arxiv.org/abs/2005.11031
