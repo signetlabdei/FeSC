@@ -15,6 +15,17 @@ The clustering algorithms employed are
 
 A more detailed description of the ncv-FeSC algorithm is given in the paper linked below.
 
+### Input
+TBD
+- KO = number of folds of the external CV loop
+- KI = number of folds of the inner CV loop
+- Mr = number of features to select
+- nu = parameter used in the consensus clustering (related to the size of the cluster)
+
+### Output
+**Plot1:** classification performance in terms of Minimum Classification Error (MCE) when varying Mr, for a fixed nu. Once fixed the fold of the external CV loop as that achieving the best performance (KO*), the boxplot represents the performance for the different folds of the inner CV loop.
+**Command Window:**: Best classification performance in training and test.
+
 ## References
 - G. Cisotto, M. Capuzzo, A. V. Guglielmi, and A. Zanella, “Feature selection for gesture recognition in Internet-
 of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland. Pre-published in ArXiV: http://arxiv.org/abs/2005.11031
