@@ -22,8 +22,8 @@ A more detailed description of the ncv-FeSC algorithm is given in the paper link
 - nu = parameter used in the consensus clustering (related to the size of the cluster)
 
 ### Output
--**Plot1:** classification performance in terms of Minimum Classification Error (MCE) when varying Mr, for a fixed nu. Once fixed the fold of the external CV loop as that achieving the best performance (KO*), the boxplot represents the performance for the different folds of the inner CV loop.
--**Command Window:**: Best classification performance in training and test.
+- **Plot1:** classification performance in terms of Minimum Classification Error (MCE) when varying Mr, for a fixed nu. Once fixed the fold of the external CV loop as that achieving the best performance (KO*), the boxplot represents the performance for the different folds of the inner CV loop.
+- **Command Window:**: Best classification performance in training and test.
 
 ## References
 - G. Cisotto, M. Capuzzo, A. V. Guglielmi, and A. Zanella, “Feature selection for gesture recognition in Internet-
