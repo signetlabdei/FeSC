@@ -27,4 +27,4 @@ A more detailed description of the ncv-FeSC algorithm is given in the paper link
 
 ## References
 - G. Cisotto, M. Capuzzo, A. V. Guglielmi, and A. Zanella, “Feature selection for gesture recognition in Internet-
-of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland. Pre-published in ArXiV: http://arxiv.org/abs/2005.11031
+of-Things for healthcare”, International Conference on Communications (ICC), 7-11 June, 2020, Dublin, Ireland. Available at https://ieeexplore.ieee.org/document/9149381
